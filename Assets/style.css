@@ -1,0 +1,66 @@
+:root{
+    --bricks: #9bafa3;
+    --bricks2: #80a990;
+
+}
+#top {
+    background-color: var(--bricks);
+    min-height: 60px;
+}
+#titles {
+    font-size:30px;
+    color: rgb(44, 45, 44);
+    display: inline-block;
+    width: 100px;
+    min-height: 60px;
+    text-align: right;
+}
+#altTitle {
+    font-size: 20px;
+    color: rgb(75, 75, 92);
+    display: inline-block;
+    width: 90px;
+    min-height: 60px;
+    text-align: right;
+}
+#content {
+    background-color: var(--bricks2);
+    display: flex;
+    font-size: 20px;
+    margin-left: 8px; 
+    border-left: 5px solid rgb(138, 137, 168);
+    padding: 2%;
+    float: right;
+}
+.img-container {
+    position: relative;
+}
+#about-me, #work, #contact, #resume {
+    display: inline-flex;
+}
+
+.project {
+    width: 90%;
+    min-width: 50px;
+    padding: 1%;
+}
+.altProject {
+    width: 100%;
+    min-width: 50px;
+    padding: 1%;
+}
+
+.project-title {
+    position: relative;
+    top: 30%; /* Adjust this value to vertically center the text */
+    left: -10%; /* Adjust this value to horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: #000000; /* Set the background color with some transparency */
+    color: #fff; /* Set the text color */
+    padding: 5px 5px; /* Add some padding to the text */
+    font-size: 16px; /* Adjust the font size */
+  /*   text-align: center; /* Center the text horizontally */ 
+  z-index: 1;
+  height: 20px;
+  min-width: 60px;
+  }
